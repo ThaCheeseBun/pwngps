@@ -1,5 +1,5 @@
 /*
-pwngps: paw-gps but less hacky
+pwngps: paw-gps but less hacky for pwnagotchi.
 Copyright (C) 2023  ThaCheeseBun
 
 This program is free software: you can redistribute it and/or modify

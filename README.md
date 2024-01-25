@@ -8,7 +8,7 @@ Early access software, not thoroughly tested yet, bugs will occur. Please report
 - Get [Termux](https://f-droid.org/en/packages/com.termux/) and [Termux:API](https://f-droid.org/en/packages/com.termux.api/) from F-Droid.
 - Open Termux and run `pkg upgrade` to upgrade all packages. Answer `y` to any questions that come up.
 - Run `pkg install termux-api` to install API support.
-- Run `curl -o pwngps "https://github.com/ThaCheeseBun/pwngps/releases/download/latest/pwngps-aarch64" && chmod +x pwngps` to download the binary and make it executable. Change `aarch64` to your architecture if your phone uses something else.
+- Run `curl -o pwngps "https://github.com/ThaCheeseBun/pwngps/releases/latest/download/pwngps-aarch64" && chmod +x pwngps` to download the binary and make it executable. Change `aarch64` to your architecture if your phone uses something else.
 - Add this to your `config.toml`. Replace ip address if necessary, this example uses the android bluetooth address.
 ```toml
 main.plugins.paw-gps.enabled = true
